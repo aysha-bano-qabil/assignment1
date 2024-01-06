@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./registration.css">
+</head>
+<body>
+  <div id="register">
+    <h1>Registration Form</h1>
+    <br>
+    <p>please fill out this form with the required information</p>
+        <br><br><form action="php">
+
+        <label>enter your first name:</label>
+        <br>
+        <input type="text" id="inp">
+        <br>
+        <label>enter your last name:</label>
+        <br>
+        <input type="text" id="inp">
+        <br>
+        <label >enter your Email:</label>
+        <br>
+        <input type="email"id="inp">
+        <br>
+        <label >create a new password</label>
+        <br>
+        <input type="password" id="inp">
+        <br><br>
+        <hr>
+        <br>
+        <div><input type="radio" name="account" id="personal account">
+        <label >personal account</label></div>
+        <br>
+        <div> <input type="radio" name="account" id="business account">
+       <label for="radio">business account</label></div>
+       <br>
+       <input type="checkbox" name="terms" id="conditions">
+    <label>i accept the <a href="terms">terms and conditions</a></label>
+    <br><br>
+    <hr>
+    <br>
+       <label>Upload a profile picture:</label>
+      <br><br>
+      <input type="file" id="inp">
+      <br><br>
+      <label >input your age(years):</label>
+      <br><br>
+      <input type="text" id="inp">
+      <br><br>
+<label>How did you hear about us?</label>
+<br><br>
+<select id="thr">
+    <option value="by internet" id="thr" >select one</option>
+    <option value="through friends" id="thr">through friends</option>
+    <option value="select one" id="thr">by net</option>
+</select>
+<br><br>
+<label>provide a bio:</label>
+<br><br>
+<textarea placeholder="i like coding on the beach......" cols="50" rows="4"></textarea>
+<br><br>
+<button>submit</button>
+</form></div>
+
+</body>
+</html>
